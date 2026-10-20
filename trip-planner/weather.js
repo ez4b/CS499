@@ -78,7 +78,7 @@ if (fileURLToPath(import.meta.url).toLowerCase() === process.argv[1]?.toLowerCas
   try {
     printReport(await getTripReport("Evansville"));
     console.log();
-    await compareCities(["Oslo", "Cairo", "Lima", "Atlantisville"]);
+    await compareCities(["Bukhara", "Cairo", "Tashkent", "Atlantisville"]);
   } catch (err) {
     console.log("Error:", err.message);
   }

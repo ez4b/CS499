@@ -34,7 +34,7 @@ export async function checkInWithRetry(name, maxTries, chance) {
   throw new Error(`Could not check in ${name} after ${maxTries} tries`);
 }
 
-// ---- Part 2 tests (only run when this file is executed directly) ------------
+// ---- Part 2 tests
 if (fileURLToPath(import.meta.url).toLowerCase() === process.argv[1]?.toLowerCase()) {
   // .then / .catch / .finally
   checkIn("Ana", 100)
