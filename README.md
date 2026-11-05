@@ -1,3 +1,5 @@
+> **CS 499 Project: UE Connect** - the project proposal and initial design are in [UE-Connect/README.md](UE-Connect/README.md).
+
 # AceShare Campus Borrowing
 
 ## Project Title
